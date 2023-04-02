@@ -1,0 +1,35 @@
+.modal label {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0px 0px 10px;
+  color: #404;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal input {
+  margin: 0px 10px 0px 10px;
+  border-radius: 4px;
+  height: 24px;
+  border: 1px solid #404;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.modal textarea {
+  margin: 0px 10px 0px 10px;
+  border-radius: 4px;
+  border: 1px solid #404;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.modal button {
+  height: 35px;
+  margin: 18px 10px;
+  font-size: 18px;
+  font-weight: 600;
+}

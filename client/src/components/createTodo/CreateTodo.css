@@ -1,0 +1,83 @@
+.createContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.createContents {
+  z-index: 1;
+  width: 360px;
+  height: 260px;
+  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 80%, #404 80%);
+  display: block;
+  border-radius: 8px;
+  margin: 20px;
+  animation: animate 0.3s;
+}
+
+.createContents h1 {
+  margin: 15px 0px 0px 0px;
+  text-align: center;
+  background-color: #404;
+  color: #ffffff;
+}
+
+.createContents label {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0px 0px 10px;
+  color: #ffffff;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.createContents input {
+  margin: 0px 10px 0px 10px;
+  border-radius: 4px;
+  height: 24px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.createContents textarea {
+  margin: 0px 10px 0px 10px;
+  border-radius: 4px;
+  border: 1px solid #f5f5f5;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.buttonBack {
+  height: 35px;
+  margin: 18px 18px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 40%;
+  background: #404;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.createButton {
+  float: right;
+  height: 35px;
+  margin: 18px 18px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 40%;
+  background: #404;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+}
